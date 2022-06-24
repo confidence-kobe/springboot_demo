@@ -1,0 +1,45 @@
+person:
+  userName: 索朗格桑
+  boss: false
+  birth: 2003/12/12 20:12:33
+  age: 19
+  pet: {name: 旺财,weight: 520.1314}
+  interests:
+    - 你
+    - 篮球
+    - 代码
+    - 听歌
+
+  animal: [猫,狗,牛]
+  score:
+    english:
+      first: 30
+      second: 40
+      third: 50
+    math: [ 131,140,148 ]
+    chinese: { first: 128,second: 136 }
+
+  salarys: [1234.2,232342.4]
+  allPets:
+    my:
+       - {name: 旺财}
+       - {name: 旺柴,weight: 12.3}
+    y: [{name: c,weight: 12.2},{name: ce,weight: 122.2},{name: cd,weight: 122.22}]
+
+
+
+spring:
+  #  mvc:
+  #    static-path-pattern: /res/**
+
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true  #开启页面表单的Rest功能
+
+
+
+
+
+
+

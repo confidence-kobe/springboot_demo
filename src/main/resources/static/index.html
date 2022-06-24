@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>去他妈的！fuck</h1>
+
+    <form action="http://localhost:8080/user" method="get">
+        <input value="get_请求" type="submit"/>
+    </form>
+
+    <form action="http://localhost:8080/user" method="post">
+        <input value="post_请求" type="submit"/>
+    </form>
+    <form action="http://localhost:8080/user" method="post">
+        <input type="hidden" name="_method" value="put"/>
+        <input value="put_请求" type="submit"/>
+    </form>
+    <form action="http://localhost:8080/user" method="post">
+        <input type="hidden" name="_method" value="Delete"/>
+        <input value="delete_请求" type="submit"/>
+    </form>
+
+
+    <form action="http://localhost:8080/save" method="post">
+        用户名：<input type="text" name="userName"><br>
+        密码：<input type="password" name="password"><br>
+        兴趣：<input type="text" name="inter"><br>
+        <input value="发送请求，并在后台获取请求体的内容" type="submit"/>
+    </form>
+
+    <!--别再;左右多写空格了！！！！！！！！！！-->
+    <a href="http://localhost:8080/testM/cwlz;userName=财旺拉珍;password=5201314;inter=追剧,inter=吃零食,inter=希望是和我聊天">
+        发送别样请求，测试矩阵变量，她
+    </a>
+</body>
+</html>
